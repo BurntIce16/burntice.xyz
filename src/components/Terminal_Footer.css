@@ -1,0 +1,33 @@
+
+.terminal-footer {
+    font-size: 0.8em;
+    position: fixed; /* Change to fixed to ensure it stays at the bottom */
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+    border-top: .1em dashed #0f0;
+    font-family: monospace;
+    overflow: hidden;
+}
+
+.terminal-footer a {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #0ff;
+}
+
+.terminal-footer a:hover {
+    color: #ff0;
+}
+
+.clock {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}

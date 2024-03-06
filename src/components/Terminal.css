@@ -1,0 +1,112 @@
+/* Terminal container */
+.terminal {
+	background-color: #000;
+	color: #fff;
+	text-align: left;
+	font-family: monospace;
+	padding: 10px;
+	/*Make the terminal the full area of the window and dont let it scroll*/
+	height: 100%;
+	width: 100%;
+	overflow: hidden !important;
+	align-items: flex-start;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	white-space: break-spaces;
+	font-size: 2vw;
+}
+
+/* Terminal prompt */
+.terminal .prompt {
+	color: #0f0;
+}
+
+/* Terminal input */
+.terminal .input {
+	color: #fff;
+}
+
+/* Terminal output */
+.terminal .output {
+	color: #0f0;
+}
+
+/* Terminal error */
+.terminal .error {
+	color: #f00;
+}
+
+/* Terminal command */
+.terminal .command {
+	color: #0ff;
+}
+
+/* Terminal comment */
+.terminal .comment {
+	color: #888;
+}
+
+/* Terminal variable */
+.terminal .variable {
+	color: #ff0;
+}
+
+/* Terminal link */
+.terminal .link {
+	color: #0ff;
+}
+
+/* Terminal link highlight */
+.terminal .link:hover {
+	color: #ff0;
+}
+
+/* Terminal title */
+.terminal .title {
+	color: #0f0;
+}
+
+.terminal-border {
+	background-color: #0f0;
+	width: 100vw;
+	height: 100vh;
+}
+
+/* Prevent scrolling on the entire site */
+body {
+	overflow: hidden;
+}
+
+/* Example to ensure child elements fill the width */
+.terminal > * {
+	width: 100%;
+}
+
+.terminal ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li:before {
+	content: "-";
+	padding-right: 5px;
+}
+
+.terminal p {
+	margin: 0;
+	padding: 0;
+}
+
+.terminal-body {
+	overflow-y: auto;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
