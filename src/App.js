@@ -54,3 +54,4 @@ export default App;
 
 //Sources used:
 //https://patorjk.com/software/taag/#p=display&f=Slant&t=BurntIce
+//https://realfavicongenerator.net/
