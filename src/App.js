@@ -1,7 +1,7 @@
 import './App.css';
 
 import Terminal from './components/Terminal';
-import BlinkingText from './Blinking_Text';
+import BlinkingText from './components/Blinking_Text';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <div className='title'>  / __  / / / / ___/ __ \/ __// // ___/ _ \</div>
         <div className='title'> / /_/ / /_/ / /  / / / / /__/ // /__/  __/</div>
         <div className='title'>/_____/\__,_/_/  /_/ /_/\__/___/\___/\___/ </div>
-        <div className='title'>Clayton Midgley</div>
+        <div className='title'>Casey Midgley</div>
                                            
 
           <p>WPI <a className='link' href='/RBE'>RBE</a>/<a className='link' href='/CS'>CS</a> Undergrad Class of 2026</p>
@@ -31,11 +31,8 @@ function App() {
             <li>
               <a className='link' href='https://github.com/BurntIce16' >GitHub</a></li>
             <li>
-              <a className='link' href='https://www.instagram.com/burnt._.ice/'>Instagram</a>
-            </li>
-            <li>
               <a className='link' href='https://www.printables.com/@Bicey_570009'>Printables</a>
-              </li>
+            </li>
           </ul>
 
           <div > </div>

@@ -1,12 +1,13 @@
 import React from "react";
 import "./Terminal_Footer.css";
-import Clock from "../Clock";
+import Clock from "./Clock";
 
 const TerminalFooter = () => {
 	const links = [
 		{ label: "Home", url: "/" },
 		{ label: "About", url: "/about" },
 		{ label: "Contact", url: "/contact" },
+		{ label: "Projects", url: "/projects" },
 		// Add more links as needed
 	];
 
