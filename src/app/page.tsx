@@ -9,14 +9,19 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-grow flex flex-col items-center pt-32 gap-8">
+      <main className="flex-grow flex flex-col items-center pt-16 sm:pt-32 gap-8">
         <h1 className="text-4xl font-bold">Hi I'm <PopText text="Casey!" dance></PopText></h1>
         <h2 className="text-2xl text-gray-600">She/They</h2>
-        
-        {/* Image scaling not working */}
-        <Selfie img="/casey.jpg" alt="Picture of me!" width={400} height={400} className="rounded-full aspect-square object-cover w-50 h-50 sm:w-100:flex sm:h-100:flex"></Selfie>
 
-        <div className="space-y-4 text-center text-lg max-w-3xl">
+        {/* Image scaling not working */}
+        <Selfie
+          img="/casey.jpg"
+          alt="Picture of me!"
+          width={400}
+          height={400}
+          className="rounded-full aspect-square object-cover w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96"
+        />
+        <div className="space-y-4 text-center text-lg max-w-3xl px-4 sm:px-8">
           <p>
             Im a <PopText text="Robotics Engineering" color="text-red-500"></PopText> and <PopText color="text-blue-500" text="Computer Science"></PopText> major at Worcester Polytechnic Institute!
           </p>
@@ -33,4 +38,3 @@ export default function Home() {
     </div>
   );
 }
-  
