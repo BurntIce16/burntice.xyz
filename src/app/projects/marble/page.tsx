@@ -41,7 +41,7 @@ export default function Home() {
         <p className='text-lg'>
           Before embarking on the final project we decided to make a miniature prototype of the marble run to test the concept and the jigs we designed/printed.
           This was a great way to test the concept and make sure we were on the right track before we started assembling the full size version.
-          Once we were happy with the design we started to work on the life for the full size version.
+          Once we were happy with the design we started to work on the lift for the full size version.
           This ended up being one of the biggest challenges of the project.
           The spacing accuracy needed to make the lift reliable ended up being much more than we expected.
           We ended up having to make several iterations of the lift before we realized that we needed to make a custom jig for spacing the coil an "exact" distance from the center support column.
@@ -53,8 +53,8 @@ export default function Home() {
         <p className='text-lg'>
           For the lift motor itself we ended up using a cheap n20 gear motor we had from a previous project and directly wired it up to a power supply for testing.
           This motor was then connected to a small 3d printed shaft that used friction to attach to the wire lift.
-          This did allow slipping on the life, but this only occurred in situation which would otherwise cause damage to the run so it worked out in our favor.
-          In the future if this life was to run continuously a set screw or adhesive could easily be added.
+          This did allow slipping on the lift, but this only occurred in situation which would otherwise cause damage to the run so it worked out in our favor.
+          In the future if this lift was to run continuously a set screw or adhesive could easily be added.
         </p>
 
 
@@ -64,7 +64,7 @@ export default function Home() {
 
 
         <p className='text-lg'>
-          While working on the life we happened across an old table which was going to be thrown out.
+          While working on the lift we happened across an old table which was going to be thrown out.
           We ended up taking it (with permission) and refinished it to math the "maker desk" aesthetic we were going for.
           Since the desk was mdf it made it really easy to drill out holes for the supports without needing to use an electric drill, making it easier to add last minute support in small hard to reach area of the run.
         </p>
