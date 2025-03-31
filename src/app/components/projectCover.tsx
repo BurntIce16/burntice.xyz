@@ -10,19 +10,21 @@ interface ProjectCoverProps {
 }
 
 const ProjectCover: React.FC<ProjectCoverProps> = ({ href, img, description, width, height }) => {
+    const aspectRatio = height / width;
+    
     return (
-        <Link href={href} className="inline-block">
-            <div className="relative group overflow-hidden inline-block rounded-3xl" style={{ width, height }}>
+        <Link href={href} className="block w-full">
+            <div className="relative group overflow-hidden rounded-3xl w-full" 
+                 style={{ paddingBottom: `${aspectRatio * 100}%` }}>
                 <Image 
                     src={img} 
                     alt={description}
-                    className="object-cover"
-                    width={width}
-                    height={height}
-                    style={{ width: '100%', height: '100%' }}
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent pb-6 pt-12 px-4">
-                    <p className="text-white text-2xl">
+                    <p className="text-white text-xl md:text-2xl">
                         {description}
                     </p>
                 </div>

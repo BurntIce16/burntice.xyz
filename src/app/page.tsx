@@ -15,7 +15,7 @@ export default function Home() {
 
         {/* Image scaling not working */}
         <Selfie
-          img="/casey.jpg"
+          img="/casey.png"
           alt="Picture of me!"
           width={400}
           height={400}

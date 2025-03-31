@@ -32,7 +32,7 @@ export default function Home() {
 
 
         <LabeledImage label="The first test pod of the drive system">
-          <Image src={"/breakcheck/classic_drive.jpg"} alt={''} width={400} height={400} />
+          <Image src={"/breakcheck/classic_drive.jpg"} alt={''} width={400} height={400} className="rounded-xl"/>
         </LabeledImage>
 
         <p className='text-lg'>
@@ -44,9 +44,9 @@ export default function Home() {
         </p>
 
 
-        <Image src={"/breakcheck/old_bot.png"} alt={''} width={400} height={400} />
+        <Image src={"/breakcheck/old_bot.png"} alt={''} width={400} height={400} className="rounded-xl"/>
 
-        <Image src={"/breakcheck/printed_part.png"} alt={''} width={400} height={400} />
+        <Image src={"/breakcheck/printed_part.png"} alt={''} width={400} height={400} className="rounded-xl"/>
 
         <p>
           An interesting quirk of this robot is that I only had a voron V0 to print with at the time, so every part of the robot had to be designed to fit in its 120mm^3 build volume.
@@ -55,7 +55,7 @@ export default function Home() {
         </p>
 
 
-        <Image src={"/breakcheck/wheels_painting.jpg"} alt={''} width={400} height={400} />
+        <Image src={"/breakcheck/wheels_painting.jpg"} alt={''} width={400} height={400} className="rounded-xl"/>
 
         <p className='text-lg'>This was the final picture I took at 4am the night before the competition of my foam wheels with a liquid latex layer drying over them for more adhesion</p>
 
@@ -69,21 +69,21 @@ export default function Home() {
         <h2>Revision 2:</h2>
 
 
-        <Image src={"/breakcheck/motor_backpack_proto.jpg"} alt={''} width={400} height={400} />
+        <Image src={"/breakcheck/motor_backpack_proto.jpg"} alt={''} width={400} height={400} className="rounded-xl"/>
 
-        <Image src={"/breakcheck/backpack_pre_wire.jpg"} alt={''} width={400} height={400} />
+        <Image src={"/breakcheck/backpack_pre_wire.jpg"} alt={''} width={400} height={400} className="rounded-xl"/>
 
-        <Image src={"/breakcheck/motor_backpack.jpg"} alt={''} width={400} height={400} />
+        <Image src={"/breakcheck/motor_backpack.jpg"} alt={''} width={400} height={400} className="rounded-xl"/>
 
-        <Image src={"/breakcheck/modifying_motor.jpg"} alt={''} width={400} height={400} />
+        <Image src={"/breakcheck/modifying_motor.jpg"} alt={''} width={400} height={400} className="rounded-xl"/>
 
-        <Image src={"/breakcheck/modified_motor.jpg"} alt={''} width={400} height={400} />
+        <Image src={"/breakcheck/modified_motor.jpg"} alt={''} width={400} height={400} className="rounded-xl"/>
 
-        <Image src={"/breakcheck/broken_weapon.jpg"} alt={''} width={400} height={400} />
+        <Image src={"/breakcheck/broken_weapon.jpg"} alt={''} width={400} height={400} className="rounded-xl"/>
 
-        <Image src={"/breakcheck/beauty_shot.jpg"} alt={''} width={400} height={400} />
+        <Image src={"/breakcheck/beauty_shot.jpg"} alt={''} width={400} height={400} className="rounded-xl"/>
 
-        <Image src={"/breakcheck/complete.jpg"} alt={''} width={400} height={400} />
+        <Image src={"/breakcheck/complete.jpg"} alt={''} width={400} height={400} className="rounded-xl"/>
 
         <p className='text-lg'>
           This seccond revision of breakcheck has yet to compete in an offical tournament and I have a lot of work to do before it is ready.
