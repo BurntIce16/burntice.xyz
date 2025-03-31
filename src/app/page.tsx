@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-grow flex flex-col items-center pt-16 sm:pt-32 gap-8">
+      <main className="flex-grow flex flex-col items-center p-8 sm:pt-16 gap-8">
         <h1 className="text-4xl font-bold">Hi I'm <PopText text="Casey!" dance></PopText></h1>
         <h2 className="text-2xl text-gray-600">She/They</h2>
 

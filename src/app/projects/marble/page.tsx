@@ -112,7 +112,18 @@ export default function Home() {
         </p>
 
 
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VmM33rR752I?si=vNuTR2i0kXxYQi-T" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <div className="w-full max-w-md sm:max-w-lg md:max-w-xl">
+          <iframe 
+            width="100%" 
+            height="315" 
+            src="https://www.youtube-nocookie.com/embed/VmM33rR752I?si=vNuTR2i0kXxYQi-T" 
+            title="YouTube video player" 
+            frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerPolicy="strict-origin-when-cross-origin" 
+            allowFullScreen
+          ></iframe>
+        </div>
 
 
         <p className='text-lg'>
