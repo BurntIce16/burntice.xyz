@@ -13,7 +13,7 @@ export default function Projects() {
                     {/* First project spans 2 columns on md and lg screens */}
                     <ProjectCover
                         href={'/projects/breakcheck'}
-                        img={'/breakcheck/old_bot.png'}
+                        img={'/breakcheck/preFight.png'}
                         description={'3D Printed 1Lb Combat Robot'}
                         width={600}
                         height={300}
