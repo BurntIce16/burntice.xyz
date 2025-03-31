@@ -16,7 +16,7 @@ const Header: React.FC = () => {
             <nav className='hidden md:flex'>
                 <ul className="flex gap-6">
                     <li><Link href="/projects" className="hover:text-blue-600">Projects</Link></li>
-                    <li><Link href="resume" className="hover:text-blue-600">Resume</Link></li>
+                    <li><Link href="/resume" className="hover:text-blue-600">Resume</Link></li>
                 </ul>
             </nav>
 
