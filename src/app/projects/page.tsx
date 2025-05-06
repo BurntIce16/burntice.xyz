@@ -43,6 +43,14 @@ export default function Projects() {
                         width={600}
                         height={300}
                     />
+
+                    <ProjectCover
+                        href={'/projects/qrCode'}
+                        img={'/qrCode/qrCode.png'}
+                        description={'Shy QR Code Art Project'}
+                        width={600}
+                        height={300}
+                    />
                 </div>
             </main>
             <Footer />
