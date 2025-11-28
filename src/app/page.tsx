@@ -2,19 +2,17 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Link from 'next/link';
 import PopText from './components/popText';
-import Selfie from './components/selfie';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-grow flex flex-col items-center p-8 sm:pt-16 gap-8">
-        <h1 className="text-4xl font-bold">Hi I'm <PopText text="Casey!" dance></PopText></h1>
-        <h2 className="text-2xl text-gray-600">She/They</h2>
+        <h1 className="text-4xl font-bold">Hi, I'm <Link href="/resume"><PopText text="Casey!" dance></PopText></Link></h1>
 
-        {/* Image scaling not working */}
-        <Selfie
-          img="/casey.png"
+        <Image
+          src="/casey.png"
           alt="Picture of me!"
           width={400}
           height={400}
