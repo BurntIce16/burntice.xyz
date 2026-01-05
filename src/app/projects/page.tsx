@@ -10,7 +10,15 @@ export default function Projects() {
 
             <main className="flex-grow container mx-auto px-8 py-8">
                 <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-                    {/* First project spans 2 columns on md and lg screens */}
+                    {/* First project spans 2 columns on md and lg screens when odd*/}
+
+                    <ProjectCover
+                        href={'/projects/cncMill'}
+                        img={'/cncMill/MillRight.jpeg'}
+                        description={'Benchtop Mill Linux CNC Conversion'}
+                        width={600}
+                        height={300}
+                    />
 
                     <ProjectCover
                         href={'/projects/chip8-update'}
