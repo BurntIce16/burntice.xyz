@@ -76,7 +76,7 @@ export default function Home() {
           </LabeledImage>
 
           <LabeledImage label="Exposed wiring (don't judge me too much)">
-            <Image src={"/cncMill/MesaFullOpen.jpeg"} alt={'Exposed wiring inside the enclosure'} width={400} height={400} className="rounded-xl" />
+            <Image src={"/cncMill/MesaFullOpen.jpg"} alt={'Exposed wiring inside the enclosure'} width={400} height={400} className="rounded-xl" />
           </LabeledImage>
         </div>
 
