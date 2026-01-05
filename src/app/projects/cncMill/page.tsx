@@ -42,7 +42,7 @@ export default function Home() {
         </LabeledImage>
 
         <p className='text-lg'>
-          Once communications were functional, what came next was designing the enclosure. A plywood-based enclosure was made and mounted to the back of a rolling tool cabinet, which would serve as the stand for the mill. Although the wheels may potentially reduce rigidity in the system, it is a necessary evil due to my limited storage space. This enclosure has a number of holes made in its size, which allow for the power and signal wires to be run separately up to the mill itself. 
+          Once communications were functional, what came next was designing the enclosure. A plywood-based enclosure was made and mounted to the back of a rolling tool cabinet, which would serve as the stand for the mill. Although the wheels may potentially reduce rigidity in the system, it is a necessary evil due to my limited storage space. This enclosure has a number of holes made in its side, which allow for the power and signal wires to be run separately up to the mill itself. 
         </p>
 
         <LabeledImage label="Mill stand with enclosure closed">

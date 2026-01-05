@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
     return (
         <footer className="mt-auto w-full flex justify-between items-center p-4 shadow-md">
             <div>
-                <p className="text-gray-600">&copy; 2025 Casey :)</p>
+                <p className="text-gray-600">&copy; {new Date().getFullYear()} Casey :)</p>
             </div>
             <nav>
                 <ul className="flex gap-6">
